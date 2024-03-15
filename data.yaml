@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Full-Faced', 'Half-Faced', 'Invalid', 'No-Helmet']
+
+roboflow:
+  workspace: mapua-university-n7qm7
+  project: motorcycle-helmet-7d2gr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mapua-university-n7qm7/motorcycle-helmet-7d2gr/dataset/1
